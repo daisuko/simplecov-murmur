@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["striker.daisuko@gmail.com"]
   gem.description   = %q{Console formatter for SimpleCov}
   gem.summary       = %q{Console formatter for SimpleCov}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/daisuko/simplecov-murmur"
 
   gem.add_dependency 'colorize'
 
