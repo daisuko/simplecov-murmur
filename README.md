@@ -7,12 +7,14 @@ Console formatter for SimpleCov
 `Gemfile`:
 
 ```ruby
-  gem 'simplecov-murmur', group: 'test'
+  gem 'simplecov-murmur', require: false, group: 'test'
 ```
 
 `test/test_helper.rb` or `test/spec_helper.rb`:
 
 ```ruby
+  require 'simplecov-murmur'
+
   SimpleCov.formatter = SimpleCov::Formatter::MurMurFormatter
   # or
   SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
