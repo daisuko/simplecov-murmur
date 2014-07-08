@@ -28,7 +28,6 @@ Console formatter for SimpleCov
     [ 30.00%] concern.rb
     [ 36.36%] lib/schedule.rb
     [ 47.88%] app.rb
-    [ 50.60%] timecard.rb
     [ 58.82%] user.rb
     [ 80.00%] access_point.rb
     [ 83.33%] lib/report.rb
@@ -49,5 +48,5 @@ Console formatter for SimpleCov
 | :short  | without 100% (default)  |
 
 ## License
-simplecov-murmur is released under the [MIT License](http://opensource.org/licenses/MIT).
+simplecov-murmur is released under the [MIT License](LICENSE.txt).
 
